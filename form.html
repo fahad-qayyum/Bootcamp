@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+</head>
+<body>
+<h1>Register</h1>
+<form >
+	<label for= "firstname">First Name: </label>
+	<input id = "firstname"type="text" name="first-name" placeholder="Enter First Name">
+	<label for= "lastname">Last Name: </label>
+	<input id = "lastname"type="text" name="last-name" placeholder="Enter Last Name">
+	<div>
+	<label for= "Male">Male: </label>
+	<input id= "Male" type="radio" name="gender" value="male">
+	<label for= "Female">Female: </label>
+	<input id= "Female" type="radio" name="gender" value="female">
+	<label for= "other">Other: </label>
+	<input id= "other" type="radio" name="gender" value="other">
+	</div>
+	<div>
+	<label for= "email">Email: </label>
+	<input id= "email" type="email" name="email" placeholder="Enter your email" required>
+	<label for= "password">Password: </label>
+	<input id= "password" type="password" name="password" placeholder="Enter password" pattern = ".{5,10}"  title="5 to 10 characters">
+	</div>
+	<div>
+	<label for="birthdate">Birthdate: </label>
+	<select name="month" id="birthdate" required>
+		<option>Month</option>
+		<option>feburary</option>
+		<option>march</option>
+		<option>april</option>
+		<option>may</option>
+		<option>june</option>
+		<option>july</option>
+		<option>august</option>
+		<option>september</option>
+		<option>october</option>
+		<option>november</option>
+		<option>december</option>
+		
+	</select>
+	<select name="day" id="birthdate" required>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+		
+	</select>
+	<select name="year" id="birthdate" required>
+		<option>2018</option>
+		<option>2017</option>
+		<option>2016</option>
+		<option>2015</option>
+		<option>2014</option>
+		<option>2013</option>
+		<option>2012</option>
+		<option>2011</option>
+		<option>2010</option>
+		<option>2009</option>
+		<option>2008</option>
+		<option>2007</option>
+		
+	</select>
+	</div>
+	<div>
+	<label for="terms">I agree to the terms and condition </label>
+	<input id = "terms" type="checkbox" name="agreement" value = "true" require>
+	</div>
+	<button>Submit</button>	
+
+	
+</form>
+</body>
+</html>
