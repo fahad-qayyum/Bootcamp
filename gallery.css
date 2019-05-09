@@ -1,0 +1,15 @@
+img{
+	width : 30%;
+	float : left;
+	margin: 1.66%;
+}
+p{
+	font-family: Kurale;
+	font-size: 30px;
+	margin-left: 1.66%;
+	text-transform: uppercase;
+	border-bottom:2px solid #f1f1f1;
+	width : 30%;
+	padding-bottom: 20px;
+
+}
