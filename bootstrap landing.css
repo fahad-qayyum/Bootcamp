@@ -1,0 +1,20 @@
+body{
+
+	background: url(images/jaguar.jpg);
+	background-position: contain;
+}
+
+.navbar-inverse{
+	background-color : #12234f;
+}
+#header{
+	color: white;
+}
+hr{
+	margin : auto 25%;
+}
+.jumbotron{
+	background-color: black;
+	text-align: center;
+	padding-top: 5%;
+}
