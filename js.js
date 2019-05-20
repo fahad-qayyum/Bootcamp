@@ -1,15 +1,9 @@
-var selP = document.querySelector("ul");
-selP.style.color = "green";
-var body = document.querySelector("body");
-body.style.background = "yellow";
+var item = document.querySelectorAll("li");;
+for(var i =0 ; i< item.length; i++){
+	item[i].addEventListener("mouseover", fun);
+	item[i].addEventListener("mouseout", fun);
 
-setInterval(function(){
-	while(body.style.background === "yellow"){
-		if(body.style.background === "yellow"){
-			body.style.background = "black";
-		}else{
-			body.style.background = "yellow";
-		}		
-	}
-
-}, 250)
+}
+function fun(){
+	this.classList.toggle("do");
+}
