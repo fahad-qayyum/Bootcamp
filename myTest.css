@@ -1,4 +1,84 @@
-.do{
-	font-size: 2rem;
-	font-weight: bold;
+body{
+	background-color: #232323;
+	font-family: "Montserrat", "Avenir"; 
+	margin: 0;
+	color : white;
+	
+	
+	
+}
+.container{
+	margin	: 20px auto;
+	max-width: 600px;
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin : 1.66%;
+	border-radius: 15%;
+	transition: background-color 0.8s;
+	-webkit-transition: background-color 0.8s;
+	-moz-transition : background-color 0.8s; 
+}
+h1{
+	
+	padding : 20px 0;
+	background-color: steelblue;
+	text-align: center;
+	font-size: 32px;
+	font-weight: normal;
+	margin : 0;
+    line-height: 1.1;
+    text-transform: uppercase;
+    
+/*    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;*/
+}
+#colorDisplay{
+	font-size: 64px;
+}
+html{
+	height: 100%;
+}
+#stripe{
+	background: white;
+    height: 30px;
+ 	color: black;
+    text-align: center;
+}
+#reset{
+	text-align: left;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+.selected{
+	background-color: steelblue;
+	color : white;
+}
+button{
+	border : none;
+	background : none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	font-family: inherit;
+	transition: all 0.5s;
+	outline : none;
+	/*for more browser support*/
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+button:hover{
+	background-color: steelblue;
+	color: white;
 }

@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TEST</title>
+	<title>Color Game</title>
 	<link rel="stylesheet" type="text/css" href="myTest.css">
+	
 </head>
 <body>
-	<h2>MY LIST OF ITEMS</h2>
-	<ol>
-		<li>item one</li>
-		<li>item two</li>
-		<li>item three</li>
+	<h1>The Great <br> <span id="colorDisplay"></span> <br>color game</h1>
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button id="easy">Easy</button>
+		<button id="hard" class="selected">Hard</button>
 		
-	</ol>
-
-
+	</div>
+	<div class="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>	
+	</div>
 	<script type="text/javascript" src="js.js"></script>
 </body>
 </html>
