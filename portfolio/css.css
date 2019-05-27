@@ -1,0 +1,62 @@
+body{
+	font-family: "Bitter", sans-serif;	
+	text-align: center;
+	line-height: 1.5;
+	word-break: break-word;
+}
+html{
+	height: 100%;
+}
+#logo{
+	width: 52px;
+	height: 48px;
+}
+#navContainer{
+	padding : 19.2px 0px;
+}
+#h1Header{
+	font-size: 3rem;
+	font-weight: bold;
+}
+#introContainer{
+	background-color: #8C43FF;
+}
+@media (max-width: 768px){
+	#h1Header{font-size: 2rem;}
+	#avatar{ margin: 2rem 0;
+    width: 200px;}
+}
+#developerImg, #avatar{
+	height: auto;
+	max-width: 100%;
+}
+#textContainer{
+	color: white;
+	padding: 100px 0px 300px 0px;
+	line-height: 1.75;
+	word-spacing: 2px;
+	font-size: 1.1rem;
+	text-align: center;
+}
+#skills{
+	margin-top: -14rem;
+    padding: 5rem 1.5rem;
+    background-color: white;
+}
+ #langIcon, #courseIcon, #toolIcon{
+ 	
+ 	height: 48px;
+    width: auto;
+    margin-bottom: 32px;
+ }
+ ul{
+ 	list-style: none;
+ }
+ .changeColor{
+ 	color: #8C43FF;	
+ }
+ .stylishHr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
