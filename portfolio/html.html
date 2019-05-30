@@ -10,6 +10,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- for font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <!-- for my stylesheet -->
     <link rel="stylesheet" type="text/css" href="css.css">
 
     <title>Fahad Qayyum | Full Stack Dev</title>
@@ -20,7 +25,7 @@
 		  <a class="navbar-brand" href="#"><img id="logo" src="img/logo.png"></a>
 		    <ul class="navbar-nav ml-auto">	
 		      <li class="nav-item">
-		        <button type="button" class="btn btn-outline-info">Say Hello</button>
+		        <button id="helloBtn"><a href="http://fahadq.com/contact/" class="btnText">Say Hello</a></button>
 		      </li>    
 		    </ul>
 		</nav>
@@ -41,10 +46,10 @@
 			<div class="col-md-8 col-lg-6">
 				<div class="container" id="textContainer">
 					<h3 class="mb-3">Hi, I'm Fahad. Nice seeing you here.</h3>
-					<p>Since beginning my journey as a computer scientist, i've worked on many projects, workshops, and collaborated with talented people to create meaningful high end softwares. I'm quite confident, naturally curious, and perpetually working on improving my skills.</p>	
+					<p>Since beginning my journey as a computer scientist, I've worked on many projects, workshops, and collaborated with talented people to create meaningful high end softwares. I'm quite confident, naturally curious, and perpetually working on improving my skills.</p>	
 				</div>
-			<div class=" col-md-2 col-lg-3"></div>	
 			</div>
+			<div class=" col-md-2 col-lg-3"></div>	
 		</div>
 	</div>
 	<div class="container rounded" id="skills">
@@ -52,7 +57,7 @@
 			<div class="col-12 col-md-4 border-right">
 				<img id = "langIcon" src="img/langIcon.png">
 				<h4 class="mb-4">Languages</h4><hr class="stylishHr">
-				<p>I am skilled in many languages and continually learning more out of the interest i have for learning new things.</br></br></br><span class="changeColor">Programming Languages that i know:</span>
+				<p>I am skilled in many languages and continually learning more out of the interest i have for learning new things.</br></br></br><span class="changeColor">Languages that i speak:</span>
 				<ul class="m-0 p-0">
 					<li>Java</li>
 					<li>Python</li>
@@ -71,7 +76,7 @@
 			</div>
 			<div class="col-12 col-md-4 border-right">
 				<img id = "courseIcon" src="img/courseIcon.png">
-				<h4 class="mb-4">Concepts & Understanding</h4><hr class="stylishHr">
+				<h4 class="mb-4">Concepts</h4><hr class="stylishHr">
 				<p>Capacity to learn is gifted. Ability to learn is a skill. Willingness to learn is a choice. I characterize myself as a willing capitative learner.</br></br><span class="changeColor">Concepts that i am skilled at:</span>
 				<ul class="m-0 p-0">
 					<li>Software Design</li>
@@ -92,7 +97,7 @@
 			<div class="col-12 col-md-4">
 				<img id = "toolIcon" src="img/toolIcon.png">
 				<h4 class="mb-4">Fraweworks & Tools</h4><hr class="stylishHr">
-				<p>I like to code things from scratch, and enjoy bringing ideas to life using frameworks and tools</br></br></br><span class="changeColor">Framework/Tools i have worked with:</span>
+				<p>I like to code things from scratch, and enjoy bringing ideas to life using frameworks and tools.</br></br></br><span class="changeColor">Framework/Tools i have worked with:</span>
 				<ul class="m-0 p-0">
 					<li>NetBeans/Eclipse/codeBlocks</li>
 					<li>BootStrap</li>
@@ -110,31 +115,101 @@
 				<hr>
 			</div>
 			<div class="container pt-5">
-				<h2>My Recent Work</h2>
+				<h2 class="changeColor">My Recent Work</h2>
 				<p class="mb-4">Here are a few projects that i have worked on!</p>
 				<div class="row">
-					<div class="col-12 col-md-6 cold-lg-4">
-						<div class="card" style="width: 18rem;">
-						  <img src="img/sudokuPro.png" class="card-img-top" alt="...">
-						  <div class="card-body">
-						    <h5 class="card-title">Sudoku Game</h5>
-						    <p class="card-text">Build using Java GUI.</p>
-						    <a href="http://fahadq.com/interactive-sudoku/" class="btn btn-outline-info">View Info</a>
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/sudokuPro.png" class="image">
+							    <div><br>Sudoku Game built using Java Gui<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/interactive-sudoku/">View info</a></button>
+							    </div>
 						  </div>
-						</div>
+						</div>	
 					</div>
-					<div class="col-12 col-md-6 cold-lg-4">
-						
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/parserPro.jpg" class="image">
+							    <div><br>Expression Parser made with Eiffel<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/expression-parser/">View info</a></button>
+							    </div>
+						  </div>
+						</div>	
 					</div>
-					<div class="col-12 col-md-6 cold-lg-4">
-						
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/onlineStorePro.png" class="image">
+							    <div><br>Online Store(under progress)<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/online-store/">View info</a></button>
+							    </div>
+						  </div>
+						</div>	
 					</div>
-
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/dictionaryPro.png" class="image">
+							    <div><br>MathModels in Eiffel<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/mathmodels/">View info</a></button>
+							    </div>
+						  </div>
+						</div>	
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/databasePro.png" class="image">
+							    <div><br>Querying Database<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/querying-yrb/">View info</a></button>
+							    </div>
+						  </div>
+						</div>	
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 pb-4">
+						<div class="purple-square-container">
+						  <div class="purple-square">
+							<img src="img/matrixPro.png" class="image">
+							    <div><br>Matrix Using Eiffel<br>
+							    	<button type="button" class="btn btn-outline-primary mt-3 btn-sm"><a href="http://fahadq.com/matrix/">View info</a></button>
+							    </div>
+						  </div>
+						</div>	
+					</div>	
 				</div>
 			</div>
+		</div>
+	</div>
+	<div class="container-fluid mt-5" id="testimonialContainer">
+		<div class="container" id="textContainer">
+			<h3 class="pb-2 testimonialHeader">Testimonials</h3>
+			<p class="testimonialPara">Here is what people have to say about me...</p>
+			<div class="wholeTestimnial">
+			<img class="testimonialImg rounded-circle m-4" id="testimonialImg" src="img/jeff.jpg">
+			<p class="quote">"Fahad Qayyum is a star student. Overall I see his marks are top. He took Advanced Algorithms (EECS3101) from me receiving an A+. This course is really hard. It requires during each of 4 tests and an exam to completely design new algorithms. Fahad did so exceptionally well. This course is an excellent indicator of how well a person will do in Google, graduate school, producing original software developer job. He is completely charming and a delight to interact with. He supported both the other students and myself by engaging us all in interesting discussions. I am confident that he will excel at anything he does. I 100% strongly recommend Fahad. I had wished that he would have chosen to do graduate work with me."</p>
+			<h1 class="title">Jeff Edmonds</h1>
+			<h2 class="subtitle">Sr. Professor, York University</h2>
+			</div>
+			<label class="label1"></label>
+			<label class="label2"></label>
 			
 		</div>
 	</div>
+	<div class="container rounded" id="skills">
+		<h6 class="title pb-3">Want to connect? Hit me up</h6>
+		<a href="https://www.facebook.com/fahadmosh"><img id="logo" src="img/fbIcon.png"></a>
+		<a href="https://www.linkedin.com/in/fahad-qayyum-95663b178/"><img id="logo" src="img/linkedIcon.png"></a>
+		<a href="https://github.com/fahadq123"><img id="logo" src="img/gitIcon.png"></a>
+		<a href="http://fahadq.com/contact/"><img id="logo" src="img/contactIcon.png"></a>
+		<h2 class="subtitle pt-4">Handcrafted by me <i class="far fa-copyright"></i> twentyNineteen <a href="">SiteSources</a></h2>
+
+	</div>
+	<script type="text/javascript" src="js.js"></script>
   </body>
 
 </html>
+
+
+					

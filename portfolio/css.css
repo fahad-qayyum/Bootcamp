@@ -7,6 +7,24 @@ body{
 html{
 	height: 100%;
 }
+#helloBtn{
+    border-radius: 290486px;
+    background-color: transparent;
+    border-color: #8C43FF;
+   
+    border-width: 2px;
+    /*font-weight: 400;
+    font-size: 18px;*/
+    padding: 0.6rem 1rem 1rem 1rem;
+    width:auto;
+    height: 48px;
+    
+}
+.btnText{
+	color: #8C43FF;
+	font-weight: 400;
+    font-size: 18px;
+}
 #logo{
 	width: 52px;
 	height: 48px;
@@ -18,7 +36,7 @@ html{
 	font-size: 3rem;
 	font-weight: bold;
 }
-#introContainer{
+#introContainer, #testimonialContainer{
 	background-color: #8C43FF;
 }
 @media (max-width: 768px){
@@ -40,7 +58,7 @@ html{
 }
 #skills{
 	margin-top: -14rem;
-    padding: 5rem 1.5rem;
+    padding: 5rem 1.5rem 0.2rem 1.5rem;
     background-color: white;
 }
  #langIcon, #courseIcon, #toolIcon{
@@ -59,4 +77,80 @@ html{
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+/*.con{
+	position: relative;
+  width: 50%;
+}*/
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.purple-square-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple-square {
+  width: 200px;
+}
+
+.testimonialImg{
+	max-width: 90px;
+    height: auto;
+    margin: 4rem auto 2rem;
+}
+.quote{
+
+	font-family: inherit;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    font-size: 17px;
+    text-align: center;
+}
+.title{
+	color: #293347;
+    font-weight: 800;
+    line-height: 1.125;
+    word-break: break-word;
+    font-size: 1.25rem;
+}
+.testimonialHeader, .testimonialPara{
+	color: #293347;
+}
+.subtitle{
+    color: #4a4a4a;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 1rem
+}
+.label1 {
+    display: inline-block;
+    margin: 0 4px 0 6px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #293347;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #293347;
+    transition: background-color 1s;
+}
+.label2 {
+    display: inline-block;
+    margin: 0 4px 0 6px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #293347;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+.wholeTestimnial{
+	transition: all 0.8s;
 }
