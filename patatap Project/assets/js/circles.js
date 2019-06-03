@@ -158,7 +158,7 @@ var key = {
 			}
 }
 $("html").keypress(function(event){
-	$(".message").text("");
+	$(".message").fadeOut();
 	if(event.which === 32){
 		$("canvas").css("background", randomColor());
 	}
@@ -166,11 +166,10 @@ $("html").keypress(function(event){
 
 function randomColor(){
 	//pick a "red" from 0 - 255
-	var r = Math.floor(Math.random() * 105);
+	var r = Math.floor(Math.random() * 99);
 	//pick a "green" from  0 -255
-	var g = Math.floor(Math.random() * 105);
+	var g = Math.floor(Math.random() * 99);
 	//pick a "blue" from  0 -255
-	var b = Math.floor(Math.random() * 105);
-	return "rgb(" + r + ", " + g + ", " + b + ")";
+	var b = Math.floor(Math.random() * 99);
+	return "#" + r + "" + g + "" + b;
 }
-
