@@ -1,0 +1,27 @@
+#horStripe{
+	 position: absolute;
+    height: 200px;
+    width: 100%;
+    top : 10%;
+    left : 0;
+    background-color: rgba(0,0,0,.065); 
+}
+#verStripe{
+	position: absolute;
+    height: 200%;
+    width: 300px;
+    bottom: 0;
+    background-color: rgba(0,0,0,.065);
+    margin-left: 200px;
+}
+
+input[type="text"]{
+	font-size: 18px;
+	color: #2980b9;
+	background-color: #f7f7f7;
+	margin-left: 16.5%;
+	margin-top: 0.2%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px rgba(0,0,0,1);
+}
